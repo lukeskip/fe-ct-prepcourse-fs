@@ -7,6 +7,8 @@ function sonIguales(x, y) {
   // Tu código:
   if (x === y) {
     return true;
+  } else {
+    return false;
   }
 }
 
@@ -43,14 +45,14 @@ function esPar(num) {
   // Retorna true si "num" es par.
   // De lo contrario, retorna false.
   // Tu código:
-  return num % 2 ? true : false;
+  return num % 2 === 0 ? true : false;
 }
 
 function esImpar(num) {
   // Retorna true si "num" es impar.
   // De lo contrario, retorna false.
   // Tu código:
-  return num % 1 ? true : false;
+  return num % 2 === 0 ? false : true;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
